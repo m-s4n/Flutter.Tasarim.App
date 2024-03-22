@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app_iki (chrome)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port",
+                "8080"
+            ]
+        },
+        {
+            "name": "app_iki (emülator)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "emulator-5554"
+            ]
+        },
+        {
+            "name": "app_iki (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
